@@ -68,6 +68,7 @@
         android:layout_height="61dp"
         android:layout_marginStart="52dp"
         android:text="A/C"
+        android:onClick="Mohek"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
@@ -79,6 +80,7 @@
         android:layout_height="60dp"
         android:layout_marginEnd="64dp"
         android:text="="
+        android:onClick="Shave"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -90,8 +92,11 @@
         android:layout_height="65dp"
         android:layout_marginStart="36dp"
         android:text="Credits"
+        android:onClick="Credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9"
         app:layout_constraintVertical_bias="0.906" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
